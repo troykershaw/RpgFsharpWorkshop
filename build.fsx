@@ -56,10 +56,7 @@ let config =
        
     }
 
-async {
-    GET >>= browse
-    |> web_server config
-} |> Async.Start
+web_server_async config browse |> snd |> Async.Start
 
 Target "GenerateSlides" (fun _ ->
     !! "slides/*.md"
