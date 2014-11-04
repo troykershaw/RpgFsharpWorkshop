@@ -1,5 +1,9 @@
 # RpgFsharpWorkshop
 
+## I just want to see it!
+
+Well, you can go here: [http://troykershaw.github.io/RpgFsharpWorkshop/]()
+
 ## Building
 Run
 
