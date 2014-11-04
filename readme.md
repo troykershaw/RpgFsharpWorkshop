@@ -2,7 +2,7 @@
 
 ## I just want to see it!
 
-Well, you can go here: [http://troykershaw.github.io/RpgFsharpWorkshop/]()
+Well, [you can see it here](http://troykershaw.github.io/RpgFsharpWorkshop/).
 
 ## Building
 Run
@@ -25,7 +25,7 @@ build.fsx
 
 ## Viewing
 
-- Open your browser to [http://localhost:8100/index.html]()
+- Open your browser to [http://localhost:8100/index.html](http://localhost:8100/index.html)
 - Press `s` to view slide notes
 - Press `f` to go fullscreen
 
