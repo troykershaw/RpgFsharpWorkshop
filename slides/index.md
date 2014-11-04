@@ -169,7 +169,13 @@ You quickly look up your notes.
 	|> List.iter (printfn "%s")
 
 <aside class="notes">
-	
+You finish your solution and quickly push your code to the King.
+
+"We have a winner!" the King announces. "Come up and claim your prize."
+You're sure this must be you. 
+You grip your chair, preparing to rise, but stop dead in your tracks when the King says: "Today's fastest problem solver is none other than my daughter, Princess Quinn!"
+As the Princess takes the stage, you gasp: it's the woman from the street!
+Princess Quinn faces her crowd of admirers and bows her head, preparing to receive the winner's medal. At that moment, the earth begins to tremble. A gaping hole forms right below the Princess and she is pulled inside. An evil looking man, dressed entirely in black, rises from the hole, grasping the terrified princess in his bony arms. 
 </aside>
 
 ***
@@ -177,12 +183,6 @@ You quickly look up your notes.
 ## The Kidnapping
 
 <aside class="notes">
-"We have a winner!" the King announces. "Come up and claim your prize."
-You're sure this must be you. 
-You grip your chair, preparing to rise, but stop dead in your tracks when the King says: "Today's fastest problem solver is none other than my daughter, Princess Quinn!"
-As the Princess takes the stage, you gasp: it's the woman from the street!
-Princess Quinn faces her crowd of admirers and bows her head, preparing to receive the winner's medal. At that moment, the earth begins to tremble. A gaping hole forms right below the Princess and she is pulled inside. An evil looking man, dressed entirely in black, rises from the hole, grasping the terrified princess in his bony arms. 
-
 "Be warned, smug Functionlanders: I shall soon rule your world!" With a snarl, he disappears down the hole, taking the flailing Princess with him.
 
 In desperation, you launch yourself after her, but your body is thrown back by a force field now covering the hole.
