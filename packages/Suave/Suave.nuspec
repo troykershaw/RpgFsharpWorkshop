@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Suave</id>
+    <version>0.16.0</version>
+    <authors>Ademar Gonzalez, Henrik Feldt</authors>
+    <owners>Ademar Gonzalez, Henrik Feldt</owners>
+    <licenseUrl>https://github.com/ademar/suave/blob/master/COPYING</licenseUrl>
+    <projectUrl>http://suave.io</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.</description>
+    <releaseNotes>Full version: 0.16.0.27d03f.</releaseNotes>
+    <copyright>Ademar Gonzalez</copyright>
+    <language>en-GB</language>
+  </metadata>
+</package>
