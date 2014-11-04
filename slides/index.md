@@ -7,7 +7,9 @@
 ***
 
 # Functionland
-## A romance of many paradigms
+## A Romance of Many Paradigms
+
+@troykershaw
 
 ***
 
@@ -15,9 +17,9 @@
 
 <aside class="notes">
 "Wake up!" you hear your mum yell. "You'll be late for the hackathon!"
-You roll over and see that it's 9:42, only 18 minutes until the annual hackathon.
+You roll over and peer at your clock. It's 9.42, only 18 minutes shy of Functionland's annual hackathon! The hackathon gives students the chance to win a place at the prestigous Functionland Knight Academy. 
+Your heart swells with a distinct feeling of global pride as you think about Functionland, the only home you have ever known. Selection for the Functionland Knight Academy would be an honour beyond description.
 You quickly put on your favourite f# shirt and hurry to the contest.
-The hackathon is held every year and gives students the chance to win a place in the Functionland Knight Academy.
 </aside>
 
 ***
@@ -25,9 +27,11 @@ The hackathon is held every year and gives students the chance to win a place in
 # BAM!
 
 <aside class="notes">
-Dazed, you get up off the ground and realise that you have just bumped into the princess.
-"Running late as usual?" the Princess asks. "C'mon, it's about to start."
-You turn up at registration and are told
+As you tear down the street to the hackathon venue, you clumsily lose your footing and bowl head first into a woman. A gorgeous woman, at that. Red-faced from a combination of exertion and embarrassment, you stumble to your feet and stick out a grazed arm for the woman to grasp. You soon see that there's no need: she's already on her feet, looking fresh-faced and a little amused. 
+"Keen to get hacking, I see" she quips, before disappearing down the road. 
+You groan inwardly, torn between desperately wanting to see the woman again and hoping to avoid further humiliation by never seeing her again.
+
+You turn up at registration and are told:
 </aside>
 
 ***
@@ -56,10 +60,10 @@ You turn up at registration and are told
 ## King Alonzo speaks
 
 <aside class="notes">
-The king stands up to speak
+The King of Functionland rises to address the would-be hackers.
 "Welcome to the annual Functionland hackathon. This is where the best and brightest are given the opportunity to prove themselves worthy to train with the Knight Academy.
 
-There are some rules, however. In fact, just one.
+"There is just one rule."
 </aside>
 
 ***
@@ -67,7 +71,7 @@ There are some rules, however. In fact, just one.
 # No mutability!
 
 <aside class="notes">
-This year, the problem you need to solve to win this coveted prize is:
+"This year, the problem you need to solve to win the coveted prize is:"
 </aside>
 
 ***
@@ -97,7 +101,7 @@ You have 2 minutes to check your notes before we start
 ## Cheat sheet
 <aside class="notes">
 You quickly look up your notes.
-Okay - what elements do I need here?
+"Okay - what elements do I need here?"
 </aside>
 
 <div class="fragment">
@@ -126,7 +130,7 @@ Okay - what elements do I need here?
 # Ding! Ding!
 
 <aside class="notes">
-"It looks like someone has solved the problem" the king says. "Please git push your code to me."
+"It looks like someone has solved the problem," the king says. "Please git push your code to me."
 </aside>
 
 ***
@@ -144,6 +148,10 @@ Okay - what elements do I need here?
 	    else 
 	        printfn "%d" i
 	    i <- i + 1
+
+<aside class="notes">
+"Close, but you're mutating" the king says. "The competition is still on!"
+</aside>
 
 ***
 
@@ -166,46 +174,47 @@ Okay - what elements do I need here?
 
 ***
 
-# You win!
+## The Kidnapping
 
 <aside class="notes">
-"We have a winner!" the king announces. "Come up and take your prize"
-You walk up the steps towards the king. The princess steps forward and holds up a medal, ready to place around your neck. "Try to not bowl me over this time" she says with a smile.
-As she places the medal around your neck, the earth begins to tremble. A gaping hole opens up right below the princess and she falls in. An evil man, dressed entirely in black rises from the hole, floating in the air, with the princess grasped in his arms.
+"We have a winner!" the King announces. "Come up and claim your prize."
+You're sure this must be you. 
+You grip your chair, preparing to rise, but stop dead in your tracks when the King says: "Today's fastest problem solver is none other than my daughter, Princess Quinn!"
+As the Princess takes the stage, you gasp: it's the woman from the street!
+Princess Quinn faces her crowd of admirers and bows her head, preparing to receive the winner's medal. At that moment, the earth begins to tremble. A gaping hole forms right below the Princess and she is pulled inside. An evil looking man, dressed entirely in black, rises from the hole, grasping the terrified princess in his bony arms. 
 
-"I shall rule your world soon!" He cries out as he quickly disappears down the hole again.
+"Be warned, smug Functionlanders: I shall soon rule your world!" With a snarl, he disappears down the hole, taking the flailing Princess with him.
 
-You quickly dive in after her, but you're thrown back by a force field that now covers the hole, preventing anyone from following.
+In desperation, you launch yourself after her, but your body is thrown back by a force field now covering the hole.
 
-The Functionland knights quickly cover the area and assess what has happened.
+The Functionland knights appear, examining the area and assessing the unexpected turn of events.
 
-Soon the King stands up to address everyone.
+Concerned but composed, the King stands up to address the gathering.
 
-"The man that took my daughter is the ruler of Imperativeland. A dark world where the inhabitants are imprisoned by imperative principles. We believe that he is now trying to take over our world and kidnapping the princess will give him the power to do so.
+"The man that took my daughter is the ruler of Imperativeland: a dark world whose inhabitants are imprisoned by imperative principles. We believe that he is now trying to take over our world and kidnapping the Princess will give him the power to do so.
 
-"The force field over the hole appears to be locked by an ancient sequence. The Knights believe that once opened there will be only time to send one person down the hole.
+"The hole is a portal to Imperativeland. The force field covering it appears to be locked by an ancient, unknown sequence. The knights believe that once the force field is unlocked, there will only be enough time for one person to pass through the portal before it seals again.
+We are calling for everyone to prepare themselves to rescue the Princess by attempting to solve the ancient sequence."
 
-"We are calling for everyone to prepare themselves to rescue the princess, and attempt to solve the ancient sequence problem."
+You race to the King, eager to rescue the brilliant Princess.
 
-You quickly race to the King, eager to go to the rescue.
+"Wait", the King says. "You can't enter Imperativeland without a sword and shield. Go and see the Knight Commander and he will help you prepare."
 
-"Hold on there", the King says. "You can't go down there without a sword and shield. Go and see the Knight commander and he will help you get ready."
-
-You quickly race to see the Knight commander.
+You run to the Knight Commander.
 </aside>
 
 ***
 
-## Knight commander
+## Knight Commander
 
 <aside class="notes">
-"So, you need a sword do you?" says the Knight commander.
-"Well, with everything going on, we're out of weapons. You're going to have to make your own. Do you need a refresher?"
+"So you need a sword and shield, do you?" says the Knight Commander.
+"Well, with everything that's been going on, we're all out of weapons and armour. You're going to have to make your own. Do you need a refresher?"
 
-"Okay, you define a record like, this"
+"Okay, you define a record like this." [show fragment]
 
-Siren goes off
-"Sorry, I need to see what that's all about. You'll have to figure the rest out on your own."
+A siren goes off.
+"Sorry, I need to see what that's about. You'll have to figure the rest out on your own."
 
 </aside>
 
@@ -236,20 +245,20 @@ Then create a sword and shield using these types.
 	let shield = { Protection = 5; Durability = 500 }
 
 <aside class="notes">
-Armed with your sword and shield you race back to see the King.
-Then all of a sudden you start feeling dizzy and everything goes black
+Armed with your sword and shield, you set off to find the King.
+All of a sudden, you feel strangely dizzy. Then everything goes black.
 </aside>
 
 ***
 
 <aside class="notes">
-You wake up to find yourself in a prison. Outside the bars you see some of the people you were competing with in the hackathon.
+You wake up to find yourself imprisoned in some sort of cell. On the other side of the bars you spy a handful of your hackathon competitors.
 
-"Oh, you're awake" one of them remarks. "You were getting to close. We had to put a stop to you, so you'll have to stay here while we rescue the princess."
+"Welcome back" one of them sneers. "I'm afraid you were getting too close. We had no choice but to stop you. Enjoy yourself here and please excuse us - we're off to rescue the Princess!"
 
-They all leave.
+And with that, they leave.
 
-You look around the room and see the keypad to unlock the cell. You can just reach it.
+You look around and see a keypad mounted on a wall just oustide the cell door. The keypad appears to unlock the cell. You can just reach it.
 </aside>
 
 ***
@@ -275,7 +284,7 @@ What are the combinations you need to try?
 	                    printfn "%d %d %d %d" i j k l
 
 <aside class="notes">
-Here's an imperative way to solve the problem
+Here's an imperative way to solve the problem.
 </aside>
 
 ***
@@ -296,12 +305,12 @@ Here's an imperative way to solve the problem
 <aside class="notes">
 And something a little more functional.
 
-The cell door opens and once again you race to the King.
+The cell door swings open and you set off again for the King.
 
-"What took you so long!" the King remarked. "Anyway, no one has unlocked the force field yet."
+"What took you so long?" cries the King in distress. "No one has unlocked the force field yet!"
 
-You step up to the force field and a knight approaches you with a screen.
-"What we have been able to figure out" he says, "is that it is based on some ancient sequence called Fibonacci. Our top mathematicians think that you need to enter in 50 values"
+As you near the force field, a knight approaches you with a screen.
+"We've determined that the force field is based on some ancient sequence called Fibonacci. Our top mathematicians think that you need to enter in 50 values."
 </aside>
 
 ***
