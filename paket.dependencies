@@ -1,5 +1,5 @@
 source https://nuget.org/api/v2
 
-nuget FsReveal >= 0.0.5-beta
+nuget FsReveal >= 0.0.7-beta
 nuget FAKE
 nuget Suave

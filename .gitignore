@@ -162,7 +162,7 @@ $RECYCLE.BIN/
 # ===================================================
 
 # NuGet Packages Directory
-#packages/
+packages/
 
 # Generated documentation folder
 docs/output/
