@@ -140,7 +140,7 @@ When you finally turn up at registration you are told:<br/>
 Print your name in extravagant ASCII art</p>
 
 <p><strong>Advanced</strong><br />
-Do advanced, but make it print character by character as though it's being typed by a typewriter</p>
+Do intermediate, but make it print character by character as though it's being typed by a typewriter</p>
 
 <aside class="notes">
 Show how to print to the console<br/>
@@ -423,9 +423,7 @@ You run to the Knight Commander.<br/>
 <aside class="notes">
 "So you need a sword and shield, do you?" says the Knight Commander.<br/>
 <br/>
-</aside>
-"Well, with everything that's been going on, we're all out of weapons and armour. You're going to have to make your own. Do you need a refresher?"
-<aside class="notes">
+"Well, with everything that's been going on, we're all out of weapons and armour. You're going to have to make your own. Do you need a refresher?"<br/>
 <br/>
 "Okay, you define a record like this." [show fragment]<br/>
 <br/>
@@ -450,13 +448,13 @@ A siren goes off.<br/>
 
 <h4>Sword and Shield</h4>
 
-<p>Create two records, Weapon and Armour.</p>
+<p>Create two records, <strong>Sword</strong> and <strong>Shield</strong>.</p>
 
-<p>A Weapon should have Damage and Durability properties.</p>
+<p>A <strong>Sword</strong> should have <strong>Damage</strong> and <strong>Durability</strong> properties.</p>
 
-<p>Armour should have Protection and Durability properties.</p>
+<p>A <strong>Shield</strong> should have <strong>Protection</strong> and <strong>Durability</strong> properties.</p>
 
-<p>Then create a sword and shield using these types.</p>
+<p>Then create an instance of a sword and shield using these types.</p>
 
 <p><strong>Intermediate</strong><br />
 Create a person record and attach the sword and shield</p>
@@ -476,8 +474,8 @@ Same as intermediate but make new weapons and armour that can replace the sword 
 <span class="l">4: </span>
 <span class="l">5: </span>
 </pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="k">type</span> <span class="i">Weapon</span> <span class="o">=</span> { <span class="i">Damage</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 28)" onmouseover="showTip(event, 'fs6', 28)" class="i">int</span>; <span class="i">Durability</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 29)" onmouseover="showTip(event, 'fs6', 29)" class="i">int</span> }
-<span class="k">type</span> <span class="i">Armour</span> <span class="o">=</span> { <span class="i">Protection</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 30)" onmouseover="showTip(event, 'fs6', 30)" class="i">int</span>; <span class="i">Durability</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 31)" onmouseover="showTip(event, 'fs6', 31)" class="i">int</span> }
+<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="k">type</span> <span class="i">Sword</span> <span class="o">=</span> { <span class="i">Damage</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 28)" onmouseover="showTip(event, 'fs6', 28)" class="i">int</span>; <span class="i">Durability</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 29)" onmouseover="showTip(event, 'fs6', 29)" class="i">int</span> }
+<span class="k">type</span> <span class="i">Shield</span> <span class="o">=</span> { <span class="i">Protection</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 30)" onmouseover="showTip(event, 'fs6', 30)" class="i">int</span>; <span class="i">Durability</span><span class="o">:</span> <span onmouseout="hideTip(event, 'fs6', 31)" onmouseover="showTip(event, 'fs6', 31)" class="i">int</span> }
 
 <span class="k">let</span> <span class="i">sword</span> <span class="o">=</span> { <span class="i">Damage</span> <span class="o">=</span> <span class="n">10</span>; <span class="i">Durability</span> <span class="o">=</span> <span class="n">1000</span> }
 <span class="k">let</span> <span class="i">shield</span> <span class="o">=</span> { <span class="i">Protection</span> <span class="o">=</span> <span class="n">5</span>; <span class="i">Durability</span> <span class="o">=</span> <span class="n">500</span> }
