@@ -61,7 +61,7 @@ __Intermediate__
 Print your name in extravagant ASCII art
 
 __Advanced__  
-Do advanced, but make it print character by character as though it's being typed by a typewriter
+Do intermediate, but make it print character by character as though it's being typed by a typewriter
 
 ' Show how to print to the console
 ' 
@@ -245,16 +245,6 @@ let fizzBuzz number =
 
 ## Knight Commander
 
-' "So you need a sword and shield, do you?" says the Knight Commander.
-' 
-"Well, with everything that's been going on, we're all out of weapons and armour. You're going to have to make your own. Do you need a refresher?"
-' 
-' "Okay, you define a record like this." [show fragment]
-' 
-' A siren goes off.
-' "Sorry, I need to see what that's about. You'll have to figure the rest out on your own."
-
-
 <div class="fragment">
 
 ```fsharp
@@ -263,17 +253,26 @@ type NewRecord = { Property1: string; Property2: int }
 
 </div>
 
+' "So you need a sword and shield, do you?" says the Knight Commander.
+' 
+' "Well, with everything that's been going on, we're all out of weapons and armour. You're going to have to make your own. Do you need a refresher?"
+' 
+' "Okay, you define a record like this." [show fragment]
+' 
+' A siren goes off.
+' "Sorry, I need to see what that's about. You'll have to figure the rest out on your own."
+
 ***
 
 #### Sword and Shield
 
-Create two records, Weapon and Armour.
+Create two records, __Sword__ and __Shield__.
 
-A Weapon should have Damage and Durability properties.
+A __Sword__ should have __Damage__ and __Durability__ properties.
 
-Armour should have Protection and Durability properties.
+A __Shield__ should have __Protection__ and __Durability__ properties.
 
-Then create a sword and shield using these types.
+Then create an instance of a sword and shield using these types.
 
 __Intermediate__  
 Create a person record and attach the sword and shield
@@ -286,8 +285,8 @@ Same as intermediate but make new weapons and armour that can replace the sword 
 ## Sword and shield
 
 ```fsharp
-type Weapon = { Damage: int; Durability: int }
-type Armour = { Protection: int; Durability: int }
+type Sword = { Damage: int; Durability: int }
+type Shield = { Protection: int; Durability: int }
 
 let sword = { Damage = 10; Durability = 1000 }
 let shield = { Protection = 5; Durability = 500 }
@@ -365,7 +364,7 @@ let rec combinations acc set = seq {
 
 ' And something a little more functional.
 ' 
-' The cell door swings open and you set off again for the King.
+' The cell door swings open, you grab your sword and shield and you set off again for the King.
 ' 
 ' "What took you so long?" cries the King in distress. "No one has unlocked the force field yet!"
 ' 
