@@ -222,7 +222,7 @@ let fizzBuzz number =
 ## The Kidnapping
 
 ' "Be warned, smug Functionlanders: I shall soon rule your world!" With a snarl, he disappears down the hole, taking the flailing Princess with him.
-
+' 
 ' In desperation, you launch yourself after her, but your body is thrown back by a force field now covering the hole.
 ' 
 ' The Functionland knights appear, examining the area and assessing the unexpected turn of events.
